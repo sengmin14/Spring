@@ -72,5 +72,6 @@ public class LoginController {
     private boolean loginCheck(String id, String pwd) throws Exception {
 //        return "asdf".equals(id) && "1234".equals(pwd);
         User user = userDao.selectUser(id);
+        return false;
     }
 }
